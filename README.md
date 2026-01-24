@@ -1,30 +1,7 @@
 # Customer Churn Analysis (SQL & Power BI)
 
-## Overview
-This project analyzes customer churn using a telecom dataset to identify retention patterns and churn drivers.
+## Project Overview
+Customer churn is a critical business problem where organizations lose customers due to dissatisfaction, pricing, or competitive alternatives.
 
-## Tools Used
-- SQL (MySQL)
-- Power BI
+This project analyzes telecom customer data to identify churn patterns, high-risk customer segments, and key factors influencing churn using SQL for analysis and Power BI for visualization.
 
-## Key Insights
-- Month-to-month contracts have the highest churn.
-- Long-term contracts show better customer retention.
-- Churned customers differ in billing behavior.
-
-## Dashboard Screenshots
-
-### Total Customers
-![Total Customers](screenshots/totalCustomers.png)
-
-### Customers by Churn Status
-![Churn Status](screenshots/ChurnStatus.png)
-
-### Churn by Contract Type
-![Churn by Contract](screenshots/ChurnByContract.png)
-
-## Files
-- `data/` – Dataset
-- `sql/` – SQL queries
-- `powerbi/` – Power BI dashboard file
-- `screenshots/` – Dashboard images
